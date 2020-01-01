@@ -1,5 +1,8 @@
 // array of images that are randomely selected for the background.
 const images = [
+    'https://free4kwallpapers.com/uploads/wallpaper-cache/chicago-sunset-wallpaper-400x270-MM-100.jpg',
+    'https://free4kwallpapers.com/uploads/wallpaper-cache/south-america-from-a-satellite-wallpaper-400x270-MM-100.jpg',
+    'https://free4kwallpapers.com/uploads/wallpaper-cache/space-wallpaper-400x270-MM-100.jpg',
     'https://images5.alphacoders.com/699/699273.png',
     'https://images6.alphacoders.com/712/712437.jpg',
     'https://images8.alphacoders.com/617/617304.jpg',
