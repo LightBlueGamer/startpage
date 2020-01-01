@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+    <body>
+        <div id="container"></div>
+            <h1 id="greeting-and-time"><span id="time"></span><br><span id="greeting"></span></h1>
+            <a id="image-link" href="">Image</a>
+            <p id="date"></p>
+            <form method="get" action="http://www.google.com/search">
+
+            <table>
+            <tr><td>
+            <input type="text" class="search" name="q" size="25" style="color:#808080;"
+            maxlength="2000" value="Sök på google"
+            onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
+            <input type="hidden" name="sitesearch" value="" /></td></tr>
+            </table>
+
+</form>
+            <div id="dock-container">
+                <ul id="dock">
+                    <li class="dock-item"><a href="https://www.gmail.com"><img alt="Gmail" src="https://image.flaticon.com/icons/png/512/281/281769.png" height="90px" width="90px"></a></li>
+                    <li class="dock-item"><a href="https://www.facebook.com/"><img alt="Facebook" src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" height="90px" width="90px"></a></li>
+                    <li class="dock-item"><a href="https://www.royalgames.com/"><img alt="Royal Games" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFNzOIN5P2iQRwgOFY7tjUOfezmgYWOxoBb03ZWpUnMeCFElCw&s" height="90px" width="90px"></a></li>
+                    <li class="dock-item"><a href="https://www.sydsvenskan.se/"><img alt="Sydsvenskan" src="https://media.discordapp.net/attachments/628109791411175434/661998646463692810/wHrd395iCHWAAAAABJRU5ErkJggg.png" height="90px" width="90px"></a></li>
+                    <li class="dock-item"><a href="https://www.aftonbladet.se/"><img alt="Aftonbladet" src="https://media.discordapp.net/attachments/628109791411175434/662000887614537759/unknown.png?width=300&height=300" height="90px" width="90px"></a></li>
+                    <li class="dock-item"><a href="https://www.expressen.se/kvallsposten/"><img alt="Kvälssposten" src="https://media.discordapp.net/attachments/628109791411175434/662001407108579328/unknown.png?width=300&height=300" height="90px" width="90px"></a></li>
+                </ul>
+            </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
