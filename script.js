@@ -45,6 +45,6 @@ checkWindowSize();
 $(window).resize(checkWindowSize);
 
 setImage();
-setInterval(setImage, 5000)
+setInterval(setImage, 10*1000)
 checkTime();
 setInterval(checkTime, 1000);
