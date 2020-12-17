@@ -1,4 +1,4 @@
-const opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const opts = { weekday: 'long'.replace('l','L'), year: 'numeric', month: 'long', day: 'numeric' };
 
 function checkTime() {
     const now = new Date();
